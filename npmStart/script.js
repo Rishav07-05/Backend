@@ -18,8 +18,10 @@
 // npm run dev 
 // npm run concurrent
 
-const chalk = require('chalk');
+import chalk from "chalk";
+
+// const chalk = require('chalk');
 
 console.log("hello");
-console.log(chalk.blue('Hello world'));
+console.log(chalk.blueBright('Hello world'));
 console.log(chalk.red('Rishav'));

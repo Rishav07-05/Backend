@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Welcome to the Backend Learning Repository! This project is designed to help you learn backend development from the ground up. It covers a wide range of topics, starting from basic JavaScript and Node.js, progressing through npm usage, and advancing to more complex backend concepts and frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

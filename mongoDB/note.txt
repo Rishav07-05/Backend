@@ -1,0 +1,35 @@
+Data Storage:
+    something where we can store the data given by the user
+    that's why we need databases
+
+
+
+Types of databases --> SQL | NoSQL
+
+SQL -- data ko ek roop mein rakhna -> tables
+
+we will study NoSQL now :)
+NoSQL - mongoDB
+
+backend always have two layers -->
+    1) Application servers -> everthing done by this server except data handling.
+    2) Database Servers -> 
+
+
+what and why
+terminologies --> collections , documents, schemas, keys, models
+
+
+Database level 
+Database -> Collections -> Document
+
+
+CODE LEVEL
+----------------------------------------------------
+
+
+CODE                    DATABASE
+----------------------------------------------------
+mongoose.connect    ->  database create
+model create        ->  collections
+CREATE code         ->  document

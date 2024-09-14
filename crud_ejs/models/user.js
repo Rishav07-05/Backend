@@ -1,8 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect(
-  "mongodb+srv://admin:yZ4BbHMsXJFzmTHX@cluster0.hecdl.mongodb.net/"
-);
+mongoose.connect("mongodb://localhost:27017/apptester");
 
 const userSchema = mongoose.Schema({
     image: String,

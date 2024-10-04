@@ -51,6 +51,7 @@ app.get('/data', (req , res) => {
 app.get('/read', function (req , res) {
   console.log(req.cookies);
   res.send("read page");
+  
 })
 
 app.listen(3000);
